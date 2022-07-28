@@ -1,0 +1,53 @@
+%section.panel
+  = link_to 'home', root_path
+%p
+  Download:
+  = link_to "CSV", contacts_path(format: "csv")
+
+= form_tag(contacts_path, :method => "get") do
+  .form_row.mbot_20.cf
+    .form_group
+      %label.field_label
+      .field
+        = text_field_tag :search_terms, params[:search_terms],:placeholder => "Search"
+  .form_row.cf
+    .form_group
+      %button.btn.btn_green{:type => "submit"}
+        %i.fa.fa-search
+          Search
+          
+%section.panel
+  - if session[:bnotification].present?
+    .notification= session[:bnotification]
+    - session.delete(:bnotification)
+  .panel_heading Contact Listing
+  .panel_body
+    %table.table.table_border.table_stripped.order_table
+      %thead
+        %tr
+          %th Sr. No.
+          %th First Name
+          %th Last Name
+          %th Company
+          %th No of Employees
+          %th Solution Of Interest
+          %th Work Email
+          %th Action
+        - count = 1
+      %tbody
+        - @contacts.each do |contact|
+          %tr
+            %td= count
+            - count = count + 1
+            %td= contact.first_name
+            %td= contact.last_name
+            %td= contact.company
+            %td= contact.no_of_employees
+            %td= contact.solution
+            %td= contact.email
+            %td= link_to 'delete', contact_path(contact),method: :delete, data: {confirm:"Are you sure?"}
+
+            
+
+.subNavCnt.firmPagi
+       

@@ -1,0 +1,41 @@
+%h2.heading02{"data-aos" => "fade-in"} Join the HR (R)evolution
+.form-box.mt-50
+  = form_for @contact do |f|
+    .field{"data-aos" => "fade-up"}
+      %label First Name 
+      
+      / %input.form-control{:name => "first name", :type => "text"}/
+      = f.text_field :first_name, :class => "form-control", :placeholder =>"Enter First Name"
+    .field{"data-aos" => "fade-up"}
+      %label Last Name
+      
+      / %input.form-control{:name => "last name", :type => "text"}/
+      = f.text_field :last_name, :class => "form-control", :placeholder =>"Enter Last Name"
+    .field{"data-aos" => "fade-up"}
+      %label Company
+      / %input.form-control{:name => "company", :type => "text"}/
+      = f.text_field :company, :class => "form-control", :placeholder =>"Enter Company Name"
+      
+    .field{"data-aos" => "fade-up"}
+      / %label Job Position
+      / .custom-select
+      /   %select#position{:name => "job position"}
+      /     %option Select
+    .field.field-2{"data-aos" => "fade-up"}
+      %label No. Of Employees
+      / %input.form-control{:name => "no of employees", :type => "text"}/
+      = f.text_field :no_of_employees, :class => "form-control", :placeholder =>"Enter No. Of Employees"
+    .field.field-2{"data-aos" => "fade-up"}
+      %label Solution Of Interest
+      / %input.form-control{:name => "solution of interest", :type => "text"}/
+      = f.text_field :solution, :class => "form-control", :placeholder =>"Enter Your Solution"
+    .field.field-2{"data-aos" => "fade-up"}
+      %label Work Email
+      / %input.form-control{:name => "work email", :type => "Email"}/
+      = f.text_field :email, :class => "form-control", :placeholder =>"Enter Email"
+    .text-center{"data-aos" => "fade-up"}
+      / = f.submit "Let's Connect"
+      %button Let's Discuss
+%p.read{"data-aos" => "fade-up"}
+  Read our
+  %a{:href => "javascript:"} Privacy Policy

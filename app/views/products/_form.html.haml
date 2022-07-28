@@ -1,0 +1,35 @@
+= form_for @product do |f|
+ 
+  %p
+    = f.label :product_name
+    %br/
+    = f.text_field :product_name
+  %p
+    = f.label :product_description
+    %br/
+    = f.text_field :product_description
+  %p
+    = f.label :price
+    %br/
+    = f.text_field :price
+  %p
+    = f.label :weight
+    %br/
+    = f.text_field :weight
+  %p
+    = f.label :seo_name
+    %br/
+    = f.text_field :seo_name
+  / %p
+  /   = f.file_field :image
+  /      / Upload Image
+
+  %p
+    .emp-dlt-box.w-75
+    = f.fields_for :product_images do |builder|
+      = builder.file_field :images
+
+    .emp-dlt-box.w-75.text-cen{:style => "text-align:center"}
+      = link_to_add_fields '<input type="button" value="ADD PRODUCTIMAGE" name="ADD PRODUCTIMAGE" class="btn btn_grey large right mr-0" style="margin-right: 100px;">'.html_safe, f, :product_images, 'products/images'
+  %p
+    = f.submit

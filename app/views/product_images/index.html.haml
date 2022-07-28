@@ -1,0 +1,48 @@
+%section.panel
+  = link_to 'home', root_path 
+  %br/
+  = link_to "Add new", new_product_image_path 
+%p
+  Download:
+  = link_to "CSV", product_images_path(format: "csv")
+
+= form_tag(product_images_path, :method => "get") do
+  .form_row.mbot_20.cf
+    .form_group
+      %label.field_label
+      .field
+        = text_field_tag :search_terms, params[:search_terms],:placeholder => "Search"
+  .form_row.cf
+    .form_group
+      %button.btn.btn_green{:type => "submit"}
+        %i.fa.fa-search
+          Search
+          
+%section.panel
+  - if session[:bnotification].present?
+    .notification= session[:bnotification]
+    - session.delete(:bnotification)
+  .panel_heading product_image Listing
+  .panel_body
+    %table.table.table_border.table_stripped.order_table
+      %thead
+        %tr
+          %th Sr. No.
+          %th product ID
+          %th Image
+          %th Action
+        - count = 1
+      %tbody
+        - @product_images.each do |product_image|
+          %tr
+            %td= count
+            - count = count + 1
+            %td= product_image.product_id
+            %td= image_tag(product_image.image, {:style => "width:100px;"})
+            %td
+              = link_to 'edit', edit_product_image_path(product_image)
+              = link_to 'delete', product_image_path(product_image),method: :delete, data: {confirm:"Are you sure?"}
+            
+
+.subNavCnt.firmPagi
+       

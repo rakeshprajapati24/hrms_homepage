@@ -1,0 +1,24 @@
+%ul#accordion.accordion
+  %li
+    %a{:href => contacts_path, :class => params[:controller] == "contacts" ? "active" : "" }
+      %i.fa.fa-picture-o
+      %span Contacts
+  / %li
+  /   %a{:href => job_positions_path, :class => params[:controller] == "job_positions" ? "active" : "" }
+  /     %i.fa.fa-picture-o
+  /     %span Job Position
+
+  %li
+    %a{:href => products_path, :class => params[:controller] == "products" ? "active" : "" }
+      %i.fa.fa-picture-o
+      %span Products
+
+  %li
+    %a{:href => categories_path, :class => params[:controller] == "categories" ? "active" : "" }
+      %i.fa.fa-picture-o
+      %span categories
+  %li
+    %a{:href => product_images_path, :class => params[:controller] == "product_images" ? "active" : "" }
+      %i.fa.fa-picture-o
+      %span Product_images
+    

@@ -1,0 +1,56 @@
+%section.panel
+  = link_to 'home', root_path 
+  %br/
+  = link_to "Add new", new_product_path 
+%p
+  Download:
+  = link_to "CSV", products_path(format: "csv")
+
+= form_tag(products_path, :method => "get") do
+  .form_row.mbot_20.cf
+    .form_group
+      %label.field_label
+      .field
+        = text_field_tag :search_terms, params[:search_terms],:placeholder => "Search"
+  .form_row.cf
+    .form_group
+      %button.btn.btn_green{:type => "submit"}
+        %i.fa.fa-search
+          Search
+          
+%section.panel
+  - if session[:bnotification].present?
+    .notification= session[:bnotification]
+    - session.delete(:bnotification)
+  .panel_heading product Listing
+  .panel_body
+    %table.table.table_border.table_stripped.order_table
+      %thead
+        %tr
+          %th Sr. No.
+          %th Product Name
+          %th Product Description
+          %th Price
+          %th Weight
+          %th SEO Name
+          %th Action
+        - count = 1
+      %tbody
+        - @products.each do |product|
+          %tr
+            %td= count
+            - count = count + 1
+            %td= product.product_name
+            %td= product.product_description
+            %td= product.price
+            %td= product.weight
+            %td= product.seo_name
+            %td
+              = link_to 'edit', edit_product_path(product)
+              = link_to 'delete', product_path(product),method: :delete, data: {confirm:"Are you sure?"}
+
+            
+            
+
+.subNavCnt.firmPagi
+       

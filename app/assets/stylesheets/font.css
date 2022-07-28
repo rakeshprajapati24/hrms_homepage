@@ -1,0 +1,83 @@
+@font-face {
+    font-family:'montserratregular';
+    src: url('/assets/fonts/montserrat_r/montserrat-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat_r/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family:'ralewayextrabold';
+    src: url('/assets/fonts/raleway_eb/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/raleway_eb/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family:'ralewaybold';
+    src: url('/assets/fonts/raleway_b/raleway-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/raleway_b/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('/assets/fonts/raleway_r/raleway-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/raleway_r/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('/assets/fonts/raleway_sb/raleway-semibold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/raleway_sb/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('/assets/fonts/raleway_m/raleway-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/raleway_m/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('/assets/fonts/poppins_b/poppins-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/poppins_b/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('/assets/fonts/montserrat_sb/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat_sb/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('/assets/fonts/raleway_l/raleway-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/raleway_l/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Rupee_Foradian';
+    src: url('/assets/fonts/ruppe_f/Rupee_Foradian.eot');
+    src: url('/assets/fonts/ruppe_f/Rupee_Foradian.eot') format('embedded-opentype'),
+         url('/assets/fonts/ruppe_f/Rupee_Foradian.woff2') format('woff2'),
+         url('/assets/fonts/ruppe_f/Rupee_Foradian.woff') format('woff'),
+         url('/assets/fonts/ruppe_f/Rupee_Foradian.ttf') format('truetype'),
+         url('/assets/fonts/ruppe_f/Rupee_Foradian.svg#Rupee_Foradian') format('svg');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');

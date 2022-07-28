@@ -1,0 +1,17 @@
+= form_for @categorie do |f|
+   
+  %p
+    = f.label :categorie_name
+    %br/
+    = f.text_field :categorie_name
+
+  %p
+    = f.label :seo_name
+    %br/
+    = f.text_field :seo_name
+
+  %p
+    = f.label :image 
+    = f.file_field :image 
+  %p
+    = f.submit

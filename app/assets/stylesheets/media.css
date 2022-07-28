@@ -1,0 +1,215 @@
+﻿@media screen and (max-width: 1279px){
+	.right-boxes li {margin-left: 32px;}
+	.employee{font-size: 45px;}
+	.workforce button {margin-right: 43px;}
+	.cwsa{padding: 0 11px;}
+	.list-iteam ul{margin-left: 46px}
+	.heading02{font-size: 40px;}
+	.web-url{padding-left: 96px;}
+	.chatbot{font-size: 20px;}
+	.one-platform{padding-top: 50px;}
+
+	.build p{font-size: 17px;}
+	.we{font-size: 32px;}
+	.everything{padding-top: 15px;}
+	.sco{margin-top: 59px;}
+	.paragraph{font-size: 16px;}
+	/*.get-demo{padding:9px;font-size:11px;} */
+
+}/*1024*/
+
+@media screen and (max-width: 1023px){
+	.right-boxes li {margin-left: 20px;}
+	.chatbot{font-size: 15px;}
+	.hrms-system {padding:40px;padding-bottom: 114px;}
+	.employee {font-size: 31px;}
+	.right-boxes li a{font-size: 13px;}
+	.home-secondpage .our-features .of-box p{font-size: 13px;}
+	.new-age{font-size: 12px;padding-right: 14%;}
+	.list-iteam{font-size: 14px;}
+	.list-iteam ul {margin-left: 27px;}
+	.copyright{font-size: 11px;}
+	.footer-first-class{padding: 10px 0;}
+	.footer-second-class{padding-bottom: 30px;}
+	.workforce button {margin-right: 29px; font-size: 13px;}
+	.heading02 {font-size: 33px;}
+	.icons p{margin-left: 45px;padding: 18px 0;font-size: 14px;}
+	.workforce{margin-top: 21px;}
+	.opcr-row{padding-top: 24px;}
+	.one-platform {padding-top: 50px;}
+	.section{margin-top: 60px;}
+	.cwsa h3{font-size: 15px;padding-bottom: 20px;}
+	.cwsa p{font-size: 13px;line-height: 17px;}
+	.cwsa img{margin-bottom: 30px;height:100px;}
+	.web-url{font-size: 13px;padding-left: 45px;}
+	.dynamic-assistant{width: 46%;margin-right: 18px;}
+	.header-container a{width: 150px;}
+	.footer-first-class a:first-child{width: 139px;}
+	.our-features .features .of-box img {width: 65px;}
+	.one-platform h3.heading02{line-height: 34px;}
+	select#position{border: 1px solid #efefef;}
+	.custom-select:after{border-color: #655e5e transparent transparent transparent;}
+
+
+	section.first-page {margin-top: 60px;}
+	.build{width: 51%;padding-top: 40px;}
+	.build p{padding-left: 30px;font-size: 14px;line-height: 17px;padding-bottom: 14px;}
+	.bottom-img {width:41%;}
+	.bottom-img img{padding-right: 17px;}
+	h3.everything.heading01 {padding-top: 10px;}
+	.we{font-size: 20px;padding-bottom: 10px;}
+	.sco{font-size: 16px;padding-bottom: 15px;margin-top: 20px;}
+	.paragraph{font-size: 13px;line-height: 20px;}
+	.small-heading{padding-right: 23px;}
+	.everything{font-size: 40px;}
+	.left-box{padding-top: 53px;}
+
+
+}/*768*/
+
+@media screen and (max-width: 767px){
+	.workforce button {margin-right: 21px;font-size: 11px;}
+	.workforce {margin-top: 16px;}
+	.our-features .features .of-box {width: 33%}
+	.our-features .features .of-box img {width: 60px;}
+	.hrms-system {padding: 30px;padding-bottom: 94px;}
+	.chatbot {font-size: 12px;}
+	.employee {font-size: 27px;}
+	button.free-trial{font-size:12px;padding: 11px 9px;}
+	.one-platform h3.heading02{padding: 0;}
+
+	.heading02 {font-size: 30px;padding-bottom: 5px;}
+	.one-platform {padding-top: 50px;}
+	.icons p {margin-left: 40px;padding: 16px 0;font-size: 12px;}
+	.opcr-row {padding-top: 18px;}
+	.cwsa h3 {font-size: 12px;padding-bottom: 20px;}
+	.cwsa p {font-size: 11px;line-height: 16px;}
+	.logos{margin-left: 12px;max-width: 15px;}
+	.list-iteam ul {margin-left: 14px;}
+	.new-age {font-size: 12px;padding-right: 12%;line-height: 18px;}
+	.list-iteam li {padding-bottom: 15px;color: #ffffff;font-family: ralewaysemibold;}
+	.header-container a {width: 129px;}
+	.footer-first-class a:first-child {width: 121px;}
+	.copyright{font-size: 9px;}
+	.list-iteam {font-size: 13px;}
+	.footer-second-class{padding-top: 28px;padding-bottom: 14px;}
+	.home-secondpage .our-features .of-box p {font-size: 12px;}
+
+	.heading01{font-size: 30px;}
+	.bottom-img {width: 45%;}
+	.bottom-img img {padding-right: 32px;}
+	.build {width: 54%;padding-top: 33px;}
+	.build p {padding-left: 3px; font-size: 12px; line-height: 16px;padding-bottom: 8px;}
+	h3.everything.heading01 {padding-top: 6px;}
+	.paragraph {font-size: 13px;line-height: 18px;}
+	.we {font-size: 16px;padding-bottom: 8px;} 
+	.sco {font-size: 15px;padding-bottom: 8px;margin-top: 16px;}
+	.customer {padding-left: 41px;}
+	.text-center button {padding: 13px 18px;font-size: 19px;}
+	p.read {font-size: 11px;}
+	select#position{height: 50px;background: #f5f5f5;border: 1px solid #efefef;}
+	input.form-control {height: 50px;background: #f5f5f5;}
+	.form-box .field-2 input {height: 50px;}
+	.o-clients {margin: 0 -10px;}
+	.oc .box-img {margin: 0 10px;}
+
+	.right-boxes{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: #1f2c43;z-index: 9;padding: 30px;padding-top: 55px;transform: translateX(100%);transition: ease .5s all;}
+	.right-boxes.active{transform: translateX(0);}
+	.right-boxes li{margin-left: 0;padding: 20px 10px;display: block;border-bottom: 1px solid rgba(255 ,255 ,255 ,0.1);}
+	.right-boxes li a {font-size: 18px;color: #fff;}
+	.close-menu, .menu-btn{position: absolute;right: 20px;top: 20px;background: none;border: none;padding: 0;width: 25px;height: 25px;}
+	.menu-btn span{width: 100%;height: 2px;background: #1f2c43;margin: 4px 0;display: block;}
+	.close-menu span{width: 100%;height: 2px;background: #fff;margin: 5px 0;display: block;}
+	.close-menu span:first-child{transform: rotate(45deg);}
+	.close-menu span:last-child{transform: rotate(-45deg);margin-top: -6px}
+	.header-container{padding: 12px 0;}
+	li.active a {color: #2f7db6;border-radius: 11px;border: none;}
+	li.active {color: #d5dce1;}
+	.value-container {margin-top: 47px;}
+
+
+}/*640*/
+
+@media screen and (max-width: 479px){
+	.dynamic-assistant {display: block;width:70%;margin:0 auto;}
+	.heading02 {font-size: 24px;padding-bottom:4px;}
+	.l-box {width: 100%;}
+	.r-box {width: 100%;}
+	.hrms-system {display: block;width: 95%;}
+	.our-features .features .of-box {width: 50%;margin-bottom: 27px;}
+	.cwsa h3 {font-size: 14px;padding-bottom: 12px;}
+	.cwsa {padding: 0 7px;display: inline-block;width: 50%;padding-bottom: 29px;}
+	.form-box .field {display: block;width: 100%; }
+	.text-center button {padding: 10px 10px;font-size: 14px;}
+	input.form-control {height: 30px;background: #f5f5f5;}
+	select#position {height: 30px;font-size: 13px;}
+	.one-platform {padding-top: 35px;}
+	.slick-dots button {height: 12px;width: 12px;}
+	.our-features .features .of-box p{margin-top: 15px;}
+	.icons img{width: 10%;}
+	.icons p{margin-left: 35px;padding: 18px 0;}
+	.form-box .field-2 input {height: 30px;}
+	.custom-select:after {border-width: 8px 5px 0 5px;margin: 11px;}
+	.footer{margin-top: 40px;}
+
+	.heading01 {font-size: 22px;}
+	.small-heading {display: block;width: 100%;padding-right: 0px;}
+	.customer {padding-left: 0px;}
+	.bulp-img {margin:25px auto;display:block;width: 50%;}
+	p.new-age {display: block;width: 100%; padding: 0;margin: 0;}
+	.list-iteam {display: block;width: 100%;margin-top: 13px;}
+	.list-iteam li {padding-bottom: 11px;}
+	label {font-size:13px; margin: 13px 0;}
+	.footer-first-class {display: block;}
+	img.adroit-logo {width: 110px;margin: 0 104px; margin-bottom:5px;}
+	ul.social-media {display: block; float: left;width: 147px;}
+	a.web-url {padding-left: 69px;vertical-align: bottom;font-size: 11px;}
+	li.logos {margin-left: 5px;}
+	.social-media .logos:first-child img{height: 17px;}
+	.social-media .logos:nth-child(3) img {height: 15px;}
+	.one-platform h3.heading02 {line-height: 30px;}
+	.workforce button{padding:10px 0; font-size: 12px;}
+	.opcr-row{padding-top: 13px;display: block;}
+	.workforce{overflow: auto;}
+	.workforce-inner{width: max-content;}
+	.message_box{right:-17px;width:25%;bottom: 25px;}
+	.mt-50{margin-top: 30px !important;}
+	.read a {font-size: 12px;}
+	.cwsa p {font-size: 12px;}
+
+
+	
+	.paragraph {font-size: 13px;line-height: 19px;}
+	.build {display: block;width: 100%;padding-top: 25px;}
+	.our-values {font-size: 15px;}
+	.sco{font-size: 14px; padding-bottom: 11px; margin-top: 25px;}
+	.heading01 {padding-top:0; line-height: 23px;}
+	.cwsa img {margin-bottom: 18px;height: 60px;}
+
+	.left-box {width: 100%;display: block;vertical-align: top;font-size: 46px;margin-bottom: 20px;padding-top: 0;}
+	.row-section1 .right-box {width: 58%;display: inline-block;vertical-align: top;margin-left: -4px;}
+	.bottom-img {width: 42%;margin: 0;vertical-align: top;}
+	.bottom-img img {padding-right: 0;}
+	.copyright {display: block;text-align: center;padding:7px 0;}
+	.copyright p:first-child{padding-bottom: 6px;}
+    .copyimg.adroit-logo{padding-bottom: 5px;}
+    .section{margin-top: 35px;}
+    section.first-page{margin-top: 22px;}
+    .right-box.aos-init.aos-animate {
+    float: right;margin-right: -8px;}
+    .value-container {display: block;}
+    .build p {font-size: 13px; padding-bottom: 10px;}
+    .list-iteam ul {width: 33.33%;margin-right: -4px;margin-left: 0;}
+    .get-demo{right:-10%;}
+    .get-demo {padding: 10px;}
+
+}/*360*/
+
+
+
+
+
+
+
+
+

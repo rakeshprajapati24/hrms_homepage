@@ -1,0 +1,122 @@
+%main
+  %section.home-page
+    .container
+      .dynamic-assistant{"data-aos" => "fade-right"}
+        %img{:src => "/assets/dynamic_assistant.png"}/
+      .hrms-system{"data-aos" => "fade-left"}
+        %p.chatbot CHATBOT BASED HRMS SYSTEM FOR
+        %p.employee EASY EMPLOYEE MANAGEMENT
+        %button.free-trial{:type => "submit"} FREE TRIAL FOR 15 DAYS
+        %a{:href => "javascript:"}
+          %img.message_box{:src => "/assets/message_box.png"}/
+  %section.section.home-secondpage
+    .container
+      .our-features
+        %h2.heading02{"data-aos" => "fade-in"} Our Features
+        .features.mt-50
+          .of-box{"data-aos" => "fade-up"}
+            %img{:src => "/assets/employee_database.png"}/
+            %p Employee Database
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "300"}
+            %img{:src => "/assets/leave_attendance.png"}/
+            %p Leave & Attendance Management
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "600"}
+            %img{:src => "/assets/payroll_management.png"}/
+            %p Payroll Management
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "900"}
+            %img{:src => "/assets/performance_&_appraisal.png"}/
+            %p Performance & Appraisal Management
+          .of-box{"data-aos" => "fade-up"}
+            %img{:src => "/assets/customised_&_automated.png"}/
+            %p Customised & Automated Workflows
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "300"}
+            %img{:src => "/assets/flexible_organisation.png"}/
+            %p Flexible Organisation Management
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "600"}
+            %img{:src => "/assets/document_management.png"}/
+            %p Document Management
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "900"}
+            %img{:src => "/assets/employee_management.png"}/
+            %p Employee Engagement
+          .of-box{"data-aos" => "fade-up"}
+            %img{:src => "/assets/claim_&_reimbursement.png"}/
+            %p Explain Claim & Reimbursement
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "300"}
+            %img{:src => "/assets/recruitment.png"}/
+            %p Recruitment & Applicant Management
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "600"}
+            %img{:src => "/assets/task_management.png"}/
+            %p Task Management
+          .of-box{"data-aos" => "fade-up", "data-aos-delay" => "900"}
+            %img{:src => "/assets/infographics_reports.png"}/
+            %p Infograpics Reports & Dynamic Queries
+  %section.home-thirdpage
+    .container
+      .one-platform
+        %h3.heading02{"data-aos" => "fade-in"} One Platform,
+        %h2.heading02{"data-aos" => "fade-in"} Countless Results
+        .workforce
+          .workforce-inner{"data-aos" => "fade-in"}
+            %button.active Workforce Management
+            %button Payroll & Expenses
+            %button Recruiting
+            %button Performance
+            %button People Analytics
+        .opcr-row
+          .r-box{"data-aos" => "fade-left"}
+            %img{:alt => "mac", :src => "/assets/mac.png"}/
+          .l-box{"data-aos" => "fade-right"}
+            .icons
+              %img{:src => "/assets/core_hr.png"}/
+              %p Core HR
+            .icons
+              %img{:src => "/assets/time_&_attendance.png"}/
+              %p Time & Attendance
+            .icons
+              %img{:src => "/assets/helpdesk.png"}/
+              %p Helpdesk
+            .icons
+              %img{:src => "/assets/remote_work.png"}/
+              %p Remote Work
+  %section.section.home-forthpage
+    .container
+      .its-easy
+        %h2.heading02{"data-aos" => "fade-in"} It's easy to get started !
+        .steps.mt-50
+          .cwsa{"data-aos" => "fade-up"}
+            %img{:src => "/assets/one.png"}/
+            %h3 CHAT WITH US
+            %p Schedule a call with our product advisor so we can better understand your unique needs and how Lanteria HR can help you.
+          .cwsa{"data-aos" => "fade-up", "data-aos-delay" => "300"}
+            %img{:src => "/assets/two.png"}/
+            %h3 WATCH THE DEMO
+            %p Watch a customized product demonstration and get all of your questions answered by our experts.
+          .cwsa{"data-aos" => "fade-up", "data-aos-delay" => "600"}
+            %img{:src => "/assets/three.png"}/
+            %h3 SEAL THE DEAL
+            %p Start your implementation process.On average, our clients go live in 3 months or less.
+          .cwsa{"data-aos" => "fade-up", "data-aos-delay" => "900"}
+            %img{:src => "/assets/four.png"}/
+            %h3 AND FINALLY...
+            %p Get comfy and watch how Lanteria transforms your HR processes!
+  %section.section.oc-section
+    .oc
+      %h2.heading02{"data-aos" => "fade-in"} Our-Clients
+      .o-clients.mt-50.clients-slider
+        .box-img{"data-aos" => "fade-up"}
+          %img{:src => "/assets/rectangle.png"}/
+        .box-img{"data-aos" => "fade-up", "data-aos-delay" => "300"}
+          %img{:src => "/assets/rectangle.png"}/
+        .box-img{"data-aos" => "fade-up", "data-aos-delay" => "600"}
+          %img{:src => "/assets/rectangle.png"}/
+        .box-img{"data-aos" => "fade-up", "data-aos-delay" => "900"}
+          %img{:src => "/assets/rectangle.png"}/
+        .box-img{"data-aos" => "fade-up", "data-aos-delay" => "1000"}
+          %img{:src => "/assets/rectangle.png"}/
+        .box-img{"data-aos" => "fade-up", "data-aos-delay" => "1200"}
+          %img{:src => "/assets/rectangle.png"}/
+  %section.section.home-fifthpage
+    .mid-container
+      .jthr
+        .join
+          = render :partial =>"home/contact"

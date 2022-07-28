@@ -1,0 +1,27 @@
+%header#header
+  .inner-header
+    .header-container
+      %a{:href => "javascript:;"}
+        %img{:src => "/assets/hrms_blue_logo.png"}/
+      %button.menu-btn
+        %span
+        %span
+        %span
+      .right-boxes
+        %button.close-menu
+          %span
+          %span
+        %ul
+          %li.active
+            %a.home{:href => "javascript:"} Home
+          %li
+            %a.features{:href => "javascript:"} Features
+          %li
+            %a.pricing{:href => "javascript:"} Pricing
+          %li
+            %a.about-us{:href => "javascript:"} About US
+          %li
+            %a.contact-us{:href => contacts_path, :class => params[:controller] == "contacts" ? "active" : ""} Admin
+          
+
+            
