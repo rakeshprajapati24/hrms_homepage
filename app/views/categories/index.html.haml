@@ -38,7 +38,7 @@
           %tr
             %td= count
             - count = count + 1
-            %td= categorie.categorie_name
+            %td= categorie.name rescue nil
             %td= categorie.seo_name
             %td= image_tag(categorie.image, {:style => "width:100px;"})
             %td

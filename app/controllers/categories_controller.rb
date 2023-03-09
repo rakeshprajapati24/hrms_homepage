@@ -2,7 +2,7 @@ class CategoriesController < ApplicationController
     layout "admin"
   def index
     @categories = Categorie.all
-    @categories = @categories.where("concat_ws(' ', categorie_name, seo_name) like ?", "%#{params[:search_terms]}%".gsub(/\s+/, ""))
+    @categories = @categories.where("concat_ws(' ',name, seo_name) like ?", "%#{params[:search_terms]}%".gsub(/\s+/, ""))
         respond_to do |format|
           format.html
           format.csv { send_data @categories.to_csv}
