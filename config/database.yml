@@ -22,5 +22,5 @@ production:
   database: hrms_homepage_production
   pool: 5
   username: root
-  password: theadroit
+  password: password
   socket: /var/run/mysqld/mysqld.sock
